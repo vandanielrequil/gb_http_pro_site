@@ -1,0 +1,66 @@
+.product-list {
+    
+    &__row {
+        display: flex;
+        border-bottom: 1px solid #eaeaea;
+    }
+    &__cell {
+        padding: 20px 0;
+        @extend .flexcentr;
+        &_size1 {
+            width: 40.36%; 
+            justify-content: flex-start; 
+        }
+        &_size2 {
+            width: 16.11%; 
+        }
+        &_size3 {
+            width: 13.34%;
+        }
+        &_size4 {
+            width: 11.12%;
+        }
+        &_size5 {
+            width: 14.44%;
+        }
+        &_size6 {
+            width: 4.4%;
+        }
+    }
+    
+}
+
+.product-details {
+    display: flex;
+    &__column {
+        margin: 0 20px 0 0;
+    }
+}
+
+.product-cart-buttons {
+    margin: 44px 0 63px 0;
+    @extend .flexcentrs;
+}
+
+.checkpoint-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    &__column {
+        width: 31.52%;
+        position: relative;
+        &_proceed {
+            padding: 40px 42px;
+            background-color: #f5f3f3;  
+        }
+    }
+    &__proceed-cell {
+        padding-bottom: 11px;
+        margin-bottom: 17px;
+        text-align: right;
+        border-bottom: 1px solid #e2e2e2;
+    }
+}
+
+
+

@@ -1,0 +1,32 @@
+.checkout-contbox {
+    @include smargin(90px);
+    width: $page-width;
+}
+
+.checkout-line {
+    padding: 25px 0;
+    @extend .bd_bottom;
+}
+
+.checkout-flex {
+    &__column {
+        width: 390px;
+        padding: 40px 0 40px 35px;
+    }
+    &__row-padb {
+        padding: 0 0 15px;
+    }
+}
+
+.checkout-input {
+    width: 390px;
+    height: 45px;
+}
+
+.padl30 {
+    padding-left: 30px;
+}
+
+.checkout-details {
+    animation: details_opac 0.5s;
+}

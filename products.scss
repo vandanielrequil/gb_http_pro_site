@@ -1,0 +1,22 @@
+
+.product-box1 {
+    margin: 45px 0 15px;
+    padding: 10px;
+    background-color: #f3f3f3;
+}
+
+.product-pg {
+    &__col {
+        &_1 {
+        width: 21.3%;
+        }
+        &_2 {
+        width: 74%;
+    }
+}
+}
+
+.product-sale {
+    padding: 90px 285px;
+    background-color: black;
+}
